@@ -1,0 +1,457 @@
+/* * { border: 1px solid red; } */
+html,body{
+  font-family: 'Nanum Gothic', sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+
+
+
+a {
+  text-decoration: none;
+  color:#1a1a1a;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 500;
+  /* font-family: 'Nanum Gothic', sans-serif; */
+  /* margin-left: 60px; */
+}
+nav{
+  position: relative;
+}
+h1{
+  font-size: 3.5rem;
+  font-family: 'Aguafina Script', cursive;
+  color: #cd1f26;
+  text-align: center;
+}
+span{
+  font-size: 1.5rem;
+}
+li{
+  display: inline;
+
+}
+h4{
+  color: white;
+  /* position: relative;
+  top: 30px; */
+  text-transform: uppercase;
+
+}
+h6{
+  text-decoration: none;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+   justify-content: flex-start;
+}
+.taste{
+    font-family: 'DM Serif Display', serif;
+}
+.second-flex{
+  display: flex;
+  flex-direction: row;
+   justify-content: flex-end;
+}
+
+.end{
+position: relative;
+left:750px;
+
+}
+.left{
+  margin-right: 7px;
+}
+
+
+.centered{
+  margin: auto;
+  max-width: 600px;
+}
+.bold{
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+
+}
+hr{
+  color: #ebebed;
+  opacity: 0.3;
+
+}
+.corner{
+  position: relative;
+  left:220px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.flex{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  margin-left: -10px;
+  text-decoration: underline;
+  font-size: 10px;
+  padding-bottom: 40px;
+}
+.layout{
+  /* max-width: 990px; */
+  margin:auto;
+  /* margin-bottom: 24px; */
+}
+.banner{
+  background-color: #cd1f26;
+  color:white;
+  font-size: 1.7em;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 24px 20px 26px 15px;
+  text-align: center;
+  /* width: 750px;
+  height: 92px; */
+}
+.banner p{
+  font-size: 12px;
+  line-height: 15px;
+}
+.info-circle{
+  margin-right: 40px;
+
+}
+.first-pic{
+  height: 690px;
+  width: 930px;
+  position: relative;
+  left: 140px;
+}
+.first-img{
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 75%; */
+}
+/* .one{
+
+  position: relative;
+  : 200px;
+  left: 200px;
+} */
+.first-text{
+  position: relative;
+  bottom:200px;
+  left: 630px;
+  font-size: 2.2rem;
+  font-weight: 600;
+
+}
+.image-text{
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+
+  right: 105px;
+  position: relative;
+  bottom:130px;
+}
+.second-pic{
+  height:690px;
+  width: 465px;
+  margin-bottom: 200px;
+  margin-left: 10px;
+  margin-right: auto;
+}
+.second-img{
+  position: relative;
+  bottom:200px;
+  left: 150px;
+}
+.sec-img{
+  position: relative;
+  left: 160px;
+  bottom: 200px;
+}
+.third-img{
+  position: relative;
+  bottom:300px;
+  left: 160px;
+
+}
+.third-pic{
+  height: 690px;
+  width: 930px;
+}
+.fourth-img{
+  position: relative;
+  bottom:200px;
+  left: 160px;
+}
+.photo-text{
+  display: inline;
+}
+
+.second-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 130px;
+margin-bottom: 100px;
+}
+.two{
+  position: relative;
+  color:black;
+  bottom:850px;
+  left: 60px;
+}
+.two-two{
+  position: relative;
+  color:white;
+  bottom:850px;
+  left: 550px;
+  font-size: 2.0rem;
+  font-weight: bold;
+  font-family: 'DM Serif Display', serif;
+
+
+}
+.three{
+  position: relative;
+  color:black;
+  bottom: 300px;
+  left: 80px;
+}
+.three-head{
+  position: relative;
+  color:white;
+  bottom: 700px;
+  left: 250px;
+  font-size: 2rem;
+  font-family: 'DM Serif Display', serif;
+}
+.fourth-img{
+  position: relative;
+  bottom:450px;
+}
+.four{
+  position: relative;
+  bottom: 200px;
+left: 250px;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'DM Serif Display', serif;
+}
+.light{
+  font-weight: 400;
+  font-size: 1rem;
+}
+.fifth-img{
+  position: relative;
+  bottom:600px;
+  left:160px;
+}
+.fifth{
+  position: relative;
+  left: 300px;
+  bottom: 240px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: 2px;
+}
+.bed-text{
+  position: relative;
+  bottom: 200px;
+  left: 350px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-size: 1.3rem;
+
+}
+.button-yellow{
+  background-color: white;
+  border: none;
+  color:black;
+  padding: 10px 10px;
+  position: relative;
+  bottom: 240px;
+  left: 400px;
+  font-size: 16px;
+
+
+}
+.button{
+  background-color: white;
+  border: none;
+  color:black;
+  padding: 10px 10px;
+  position: relative;
+  bottom: 280px;
+  left: 400px;
+  font-size: 16px;
+
+}
+.low-heading{
+  text-align: center;
+  color: black;
+  position: relative;
+  bottom: 800px;
+  right: 30px;
+}
+.recycle{
+  width: 304px;
+  height: 456px;
+}
+.sixth-img{
+  position: relative;
+  bottom: 400px;
+  right: 50px;
+  left: 120px;
+
+}
+.sixth-img img{
+  margin-left: -180px;
+}
+.space{
+
+}
+.app-text{
+  position: relative;
+  left: 200px;
+  color: white;
+  font-size: 15px;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+}
+.seven{
+  position: relative;
+  bottom: 900px;
+  left:160px;
+}
+.mag-text{
+  position: relative;
+  bottom: 250px;
+  left: 180px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-size: 1.3rem;
+
+}
+.seventh{
+  position: relative;
+  left: 160px;
+  bottom: 300px;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: 2px;
+}
+.buttonthree{
+  background-color: white;
+  border: none;
+  color:black;
+  padding: 10px 10px;
+  position: relative;
+  bottom: 350px;
+  left: 210px;
+  font-size: 16px;
+}
+.magazine{
+  background-color: #222222;
+  color:white;
+  padding: 100px;
+  position: relative;
+  bottom:1190px;
+  text-align: center;
+
+
+}
+.mag{
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-family: serif;
+
+}
+.mag-pic{
+  height:305px;
+  width: 365px;
+  margin-right: 25px;
+
+}
+.light{
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 13px;
+  text-decoration: none;
+}
+.yellow-light{
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 10px;
+  position: relative;
+  left:350px;
+
+}
+.heading{
+  font-weight: 400;
+  font-size: 16px;
+}
+.ending{
+  background-color: #222222;
+  color:white;
+  margin: -1500px;
+
+}
+.bottom{
+  color:white;
+  font-size: 18px;
+  /* margin: -1000px; */
+  background-color: #222222;
+  margin-top: 335px;
+  padding: 80px;
+
+}
+.foot-flex{
+  display: flex;
+  flex-direction: row;
+justify-content: space-around;
+}
+.bottom li{
+  display: block;
+  font-size:14px;
+}
+.bottom p {
+  font-size: 10px;
+}
+
+.list-end{
+margin-top: 30px;
+}
+.list{
+  display: block;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+
+}
+.foot-para{
+  margin-top: 40px;
+}
+.space{
+  margin-left:10px;
+  margin-top: 20px;
+}
